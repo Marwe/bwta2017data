@@ -18,7 +18,7 @@ To show the differences in the transformations [BETA2007](http://crs.bkg.bund.de
 * bw_grid_1km_000.etrs89.zip ETRS89 geographical coordinates (from UTM)
 * bw_grid_1km_000.etrs89_via_BWTA2017_to_gk3.zip (Gauß-Krüger zone 3 \[GK3\] coordinates from ETRS89 geographical coordinates), transformation grid BWTA2017
 * bw_grid_1km_000.etrs89_via_BWTA2017_to_gk3_via_BETA2007_to_etrs89.zip (ETRS89 from GK3), transormation grid BETA2007
-* bw_grid_1km_000.utm.offset.zip UTM coordinate differences, see attributes for UTM coordinates and differences
+* bw_grid_1km_000.utm.offset.zip UTM coordinate differences, see attributes for UTM coordinates and differences `diffr=$x-"field_1"`, `diffh=$y-"field_2"
 
 Transformations were computed with ogr2ogr and the bash script `tf_beta2007.sh` included in this repository.
 
@@ -30,9 +30,18 @@ BETA2007 (Germany) - BWTA2017 (Baden-Württemberg)
 * plotted at grid points of 1km distance
 * dot color denotes direction
 * dot size the difference (1km diameter ~ 100mm)
-* lines: lenth and direction denote destortion
+* lines: length and direction denote destortion
 
-![Visualisation of transformation differences BWTA2017-BETA2017](bwta2017_beta2007_diff.png)
 
 
 ![Visualisation of transformation differences BWTA2017-BETA2017 (all area of BW)](bwta2017_beta2007_diff_large.png)
+
+![Visualisation of transformation differences BWTA2017-BETA2017 (detail)](bwta2017_beta2007_diff.png)
+
+![Visualisation of transformation differences BWTA2017-BETA2017 (all area of BW, white background)](bwta2017_beta2007_diff_large.png)
+
+The files and images are licensed: BETA2007 - BWTA2017 differences by 
+[github/Marwe](https://github.com/Marwe/bwta2017data)
+is licensed under a 
+[![Creative Commons Attribution 4.0 International License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+

@@ -188,7 +188,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
-      <ComposerHtml maxBreakDistance="10" contentMode="1" resizeMode="0" url="" useSmartBreaks="true" evaluateExpressions="true" html="&lt;h1>Differences between Transformations &lt;/h1>&#xa;BETA2007 (Germany) - BWTA2017 (Baden-Württemberg)&#xa;&lt;br>&#xa;&lt;ul>&#xa;&lt;li>plotted at grid points of 1km distance&#xa;&lt;li>dot color denotes direction&#xa;&lt;li>dot size the difference (1km diameter ~ 100mm)&#xa;&lt;li>lines: lenth and direction denote destortion&#xa;&lt;/ul>&#xa;" stylesheetEnabled="false" stylesheet="">
+      <ComposerHtml maxBreakDistance="10" contentMode="1" resizeMode="0" url="" useSmartBreaks="true" evaluateExpressions="true" html="&lt;h1>Differences between Transformations &lt;/h1>&#xa;BETA2007 (Germany) - BWTA2017 (Baden-Württemberg)&#xa;&lt;br>&#xa;&lt;ul>&#xa;&lt;li>plotted at grid points of 1km distance&#xa;&lt;li>dot color denotes direction&#xa;&lt;li>dot size the difference (1km diameter ~ 100mm)&#xa;&lt;li>lines: length and direction denote destortion&#xa;&lt;/ul>&#xa;" stylesheetEnabled="false" stylesheet="">
         <ComposerFrame sectionWidth="128.831" sectionHeight="49.1992" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
           <ComposerItem pagey="244.758" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="77.1113" y="244.758" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="128.831" outlineWidth="0.3" excludeFromExports="0" uuid="{15b183a3-9329-43f2-b21d-31a8934676cb}" height="49.1992" itemRotation="0" frame="false" pagex="77.1113">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
