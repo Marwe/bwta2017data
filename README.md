@@ -18,7 +18,7 @@ To show the differences in the transformations [BETA2007](http://crs.bkg.bund.de
 * bw_grid_1km_000.etrs89.zip ETRS89 geographical coordinates (from UTM)
 * bw_grid_1km_000.etrs89_via_BWTA2017_to_gk3.zip (Gauß-Krüger zone 3 \[GK3\] coordinates from ETRS89 geographical coordinates), transformation grid BWTA2017
 * bw_grid_1km_000.etrs89_via_BWTA2017_to_gk3_via_BETA2007_to_etrs89.zip (ETRS89 from GK3), transormation grid BETA2007
-* bw_grid_1km_000.utm.offset.zip UTM coordinate differences, see attributes for UTM coordinates and differences `diffr=$x-"field_1"`, `diffh=$y-"field_2"
+* bw_grid_1km_000.utm.offset.zip UTM coordinate differences, see attributes for UTM coordinates and differences `diffr=$x-"field_1"`, `diffh=$y-"field_2"`
 
 Transformations were computed with ogr2ogr and the bash script `tf_beta2007.sh` included in this repository. For reference and reusage, the resulting ogr2ogr commands used were:
 
