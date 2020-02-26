@@ -6,7 +6,7 @@ The transformation is published as open data (License: https://www.govdata.de/dl
 To download and for further information (mostly in German), see:
 
 * [LGL: ETRS89-UTM](https://www.lgl-bw.de/lgl-internet/opencms/de/05_Geoinformation/Liegenschaftskataster/ETRS89-UTM/) - Baden-Württembergischer Transformationsansatz für ALKIS 2017
-* Download [BWTA2017.zip](https://www.lgl-bw.de/lgl-internet/opencms/de/05_Geoinformation/Galerien/Dokumente/BWTA2017.zip)
+* Download [BWTA2017.zip](https://www.lgl-bw.de/export/sites/lgl/unsere-themen/Geoinformation/Galerien/Dokumente/BWTA2017.zip)
 
 Computations are based on data of LGL, [www.lgl-bw.de](http://www.lgl-bw.de) (Datengrundlage: LGL, www.lgl-bw.de)
 
