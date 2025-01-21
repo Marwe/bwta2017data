@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# SPDX-FileCopyrightText: 2025 github/Marwe
+#
+# SPDX-License-Identifier: EUPL-1.2
+
 # Global variables
 SCRIPTNAME=$(basename $0)
 
