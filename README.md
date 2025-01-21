@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2025 github/Marwe
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
 # BWTA2017 transformation
 
 BWTA2017 is the new NTv2 grid for transformation between Gauß-Krüger and UTM in Baden-Württemberg.
@@ -47,11 +53,11 @@ BETA2007 (Germany) - BWTA2017 (Baden-Württemberg)
 
 
 
-![Visualisation of transformation differences BWTA2017-BETA2017 (all area of BW)](bwta2017_beta2007_diff_large.png)
+![Visualisation of transformation differences BWTA2017-BETA2017 (all area of BW)](images/bwta2017_beta2007_diff_large.png)
 
-![Visualisation of transformation differences BWTA2017-BETA2017 (detail)](bwta2017_beta2007_diff.png)
+![Visualisation of transformation differences BWTA2017-BETA2017 (detail)](images/bwta2017_beta2007_diff.png)
 
-![Visualisation of transformation differences BWTA2017-BETA2017 (all area of BW, white background)](bwta2017_beta2007_diff_large_whitebg.png)
+![Visualisation of transformation differences BWTA2017-BETA2017 (all area of BW, white background)](images/bwta2017_beta2007_diff_large_whitebg.png)
 
 The files and images are licensed: BETA2007 - BWTA2017 differences by 
 [github/Marwe](https://github.com/Marwe/bwta2017data)
