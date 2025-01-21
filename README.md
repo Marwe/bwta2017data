@@ -20,7 +20,14 @@ To show the differences in the transformations [BETA2007](http://crs.bkg.bund.de
 * bw_grid_1km_000.etrs89_via_BWTA2017_to_gk3_via_BETA2007_to_etrs89.zip (ETRS89 from GK3), transormation grid BETA2007
 * bw_grid_1km_000.utm.offset.zip UTM coordinate differences, see attributes for UTM coordinates and differences `diffr=$x-"field_1"`, `diffh=$y-"field_2"`
 
-Transformations were computed with ogr2ogr and the bash script `tf_beta2007.sh` included in this repository. For reference and reusage, the resulting ogr2ogr commands used were:
+Transformations were computed with ogr2ogr and the bash script `tf_beta2007.sh` included in this repository.
+```
+tf_beta2007.sh [-r] [-n nadgridsfile] [-v] infile.shp [outfile.shp]
+ -r reverse transformation
+ -n nadgridsfile (default: /usr/share/proj/BETA2007.gsb)
+```
+
+For reference and reusage, the resulting ogr2ogr commands used were:
 
 `ogr2ogr -s_srs EPSG:4258 -t_srs '+proj=tmerc +lat_0 =0 +lon_0=9 +x_0=3500000 +y_0=0 +k=1.000000 +ellps=bessel +units=m +nadgrids=/usr/share/proj/BWTA2017.gsb +wktext ' -f 'ESRI Shapefile' bw_grid_1km_000.etrs89_via_BWTA2017_to_gk3.shp bw_grid_1km_000.etrs89.shp`
 
